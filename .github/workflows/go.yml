@@ -32,4 +32,4 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
         FT_SCKEY: ${{ secrets.FT_SCKEY }}
-      run: ./autosubmit -reason "上课" -track "东南门——二教——理教"
+      run: ./autosubmit -reason "上下课" -track "北京大学——双榆树西里"
